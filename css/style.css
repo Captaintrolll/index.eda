@@ -156,7 +156,7 @@ body {
   padding-top: 50px;
   padding-bottom: 50px;
 }
-.card1 {
+.card {
   position: relative;
   border-radius: 20px;
   overflow: hidden;
@@ -168,7 +168,7 @@ body {
   justify-content: space-between;
   width: 100%;
 }
-.card1:before {
+.card:before {
   z-index: -1;
   content: "";
   position: absolute;
@@ -179,37 +179,37 @@ body {
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
     url(.png);
 }
-.card1-text-light {
+.card-text-light {
   color: #fff;
 }
-.card1-title {
+.card-title {
   font-weight: 500;
   font-size: 24px;
   line-height: 23px;
   margin-top: 4px;
   margin-bottom: 21px;
 }
-.card1-description {
+.card-description {
   font-weight: 500;
   font-size: 16px;
   line-height: 23px;
   max-width: 200px;
 }
-.card1-price {
+.card-price {
   display: block;
   font-weight: 500;
   font-size: 24px;
   line-height: 23px;
   margin-bottom: 8px;
 }
-.card1-delivery {
+.card-delivery {
   display: block;
   font-weight: 500;
   font-size: 16px;
   line-height: 23px;
   margin-bottom: 25px;
 }
-.card1-image {
+.card-image {
   position: absolute;
   left: 0;
   top: 0;
@@ -218,7 +218,7 @@ body {
   z-index: -2;
   object-fit: cover;
 }
-.card2 {
+/* .card2 {
   position: relative;
   border-radius: 20px;
   overflow: hidden;
@@ -279,4 +279,4 @@ body {
   height: 100%;
   z-index: -2;
   object-fit: cover;
-}
+} */
